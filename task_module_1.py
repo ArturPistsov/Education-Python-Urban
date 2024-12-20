@@ -19,3 +19,9 @@ grades_of_students = {}
 for y in range(len(students_1)):
     grades_of_students[students_1[y]] = grades_1[y]
 print(grades_of_students)
+
+# или с округлением балов до десятых
+grades_of_students_1 = {}
+for y in range(len(students_1)):
+    grades_of_students_1[students_1[y]] = round(grades_1[y],1)
+print(grades_of_students_1)
